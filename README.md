@@ -11,7 +11,7 @@ Dataset
 
 Source: Publicly available dataset (Kaggle / UCI repository)
 Features include: VAT measurements, age, BMI, blood glucose levels, insulin levels, and other clinical indicators
-Target variable: GDM diagnosis (binary: positive / negative)
+Target variable: GDM diagnosis (binary: positive/negative)
 
 
 Methodology
@@ -45,25 +45,6 @@ VAT measurements were among the strongest predictors of GDM risk
 Random Forest outperformed Logistic Regression and SVM on both accuracy and F1-score
 Class imbalance handling significantly improved recall for positive GDM cases — critical in a clinical context where false negatives carry high risk
 
-
-How to Run
-bash# Clone the repository
-git clone https://github.com/YOUR-USERNAME/gdm-prediction-ml
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Open the notebook
-jupyter notebook GDM_Prediction.ipynb
-
-Project Structure
-gdm-prediction-ml/
-│
-├── GDM_Prediction.ipynb      # Main analysis notebook
-├── data/
-│   └── gdm_dataset.csv       # Dataset (or link to source)
-├── requirements.txt          # Python dependencies
-└── README.md
 
 About
 This project was completed as part of an MSc in Data Science (Distinction) at Coventry University, 2023–2024.
